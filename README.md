@@ -1,5 +1,7 @@
 # nix-qutebrowser-with-treetabs
-A nix flake with an overlay, adding a qutebrowser package with treetabs support
+A nix flake with an overlay, adding a qutebrowser package with treetabs support.
+
+This package is built by applying a (slightly modified, due to build problems) path from [PR 4602](https://github.com/qutebrowser/qutebrowser/pull/4602)
 
 ## Usage
 
