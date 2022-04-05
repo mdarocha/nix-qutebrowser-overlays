@@ -1,7 +1,7 @@
 diff --git a/qutebrowser/html/doc/commands.html b/qutebrowser/html/doc/commands.html
 index 61a8c191d..514b1413e 100644
---- a/qutebrowser/html/doc/commands.help
-+++ b/qutebrowser/html/doc/commands.help
+--- a/qutebrowser/html/doc/commands.html
++++ b/qutebrowser/html/doc/commands.html
 @@ -4,7 +4,7 @@
  <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
  <head>
