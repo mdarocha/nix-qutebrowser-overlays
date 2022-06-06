@@ -2,15 +2,6 @@ diff --git a/qutebrowser/html/doc/commands.html b/qutebrowser/html/doc/commands.
 index 61a8c191d..514b1413e 100644
 --- a/qutebrowser/html/doc/commands.html
 +++ b/qutebrowser/html/doc/commands.html
-@@ -4,7 +4,7 @@
- <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
- <head>
- <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
--<meta name="generator" content="AsciiDoc 10.1.4" />
-+<meta name="generator" content="AsciiDoc 9.1.0" />
- <title>Commands</title>
- <style type="text/css">
- /* Shared CSS for AsciiDoc xhtml11 and html5 backends */
 @@ -1266,6 +1266,30 @@ cellspacing="0" cellpadding="4">
  <td align="left" valign="top"><p class="table">Take a tab from another window.</p></td>
  </tr>
@@ -750,28 +741,10 @@ index 61a8c191d..514b1413e 100644
  <div class="paragraph"><p>How many times to repeat the action.</p></div>
  </div>
  </div>
-@@ -5246,7 +5395,7 @@ With this command, <code>;;</code> is interpreted literally instead of splitting
- <div id="footer">
- <div id="footer-text">
- Last updated
-- 2022-04-01 18:30:34 CEST
-+ 1980-01-01 00:00:00 UTC
- </div>
- </div>
- </body>
 diff --git a/qutebrowser/html/doc/settings.html b/qutebrowser/html/doc/settings.html
 index 2c83212e0..1ea0fad7e 100644
 --- a/qutebrowser/html/doc/settings.html
 +++ b/qutebrowser/html/doc/settings.html
-@@ -4,7 +4,7 @@
- <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
- <head>
- <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
--<meta name="generator" content="AsciiDoc 10.1.4" />
-+<meta name="generator" content="AsciiDoc 9.1.0" />
- <title>Setting reference</title>
- <style type="text/css">
- /* Shared CSS for AsciiDoc xhtml11 and html5 backends */
 @@ -2077,6 +2077,26 @@ cellspacing="0" cellpadding="4">
  <td align="left" valign="top"><p class="table">Stack related tabs on top of each other when opened consecutively.</p></td>
  </tr>
@@ -1044,15 +1017,6 @@ index 2c83212e0..1ea0fad7e 100644
  <td align="left" valign="top"><p class="table">NewTabPosition</p></td>
  <td align="left" valign="top"><p class="table">How new tabs are positioned.</p></td>
  </tr>
-@@ -9117,7 +9338,7 @@ cellspacing="0" cellpadding="4">
- <div id="footer">
- <div id="footer-text">
- Last updated
-- 2022-04-01 18:30:35 CEST
-+ 1980-01-01 00:00:00 UTC
- </div>
- </div>
- </body>
 diff --git a/qutebrowser/browser/browsertab.py b/qutebrowser/browser/browsertab.py
 index 661c5f68b..3d3a2ed27 100644
 --- a/qutebrowser/browser/browsertab.py
