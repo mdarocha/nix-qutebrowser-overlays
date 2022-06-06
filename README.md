@@ -21,7 +21,7 @@ Example usage a flake (your usage may differ):
       lib = nixpkgs.lib;
       system = "x86_64-linux";
       overlays = [
-        inputs.qutebrowser-with-treetabs.overlay
+        inputs.qutebrowser-with-treetabs.overlays.default
       ];
     in {
       nixosConfigurations.aNixosSystem = lib.nixosSystem {
