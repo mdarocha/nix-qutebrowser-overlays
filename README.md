@@ -13,6 +13,8 @@ Example usage a flake (your usage may differ):
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     qutebrowser-with-treetabs = {
       url = "github:mdarocha/nix-qutebrowser-with-treetabs";
+      # make sure the nixpkgs input is synced
+      inputs.nixpkgs.follows = "nixpkgs";
     };
   };
 
