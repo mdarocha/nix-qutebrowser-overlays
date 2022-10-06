@@ -6,7 +6,7 @@
   outputs = { self, nixpkgs }: {
     overlays.default = final: prev: {
       qutebrowser-with-treetabs = prev.qutebrowser.overrideAttrs (old: {
-        name = "qutebrowser-with-treetabs";
+        name = "qutebrowser-with-treetabs-${old.version}";
         patches = (old.patches or [ ]) ++ [ ./treetabs.patch ];
       });
     };
