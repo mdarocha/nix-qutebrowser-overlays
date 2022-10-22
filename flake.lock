@@ -2,11 +2,11 @@
   "nodes": {
     "nixpkgs": {
       "locked": {
-        "lastModified": 1664966753,
-        "narHash": "sha256-B9+m8Z9ckeDti1NRoVpaVVIXP93eu5r94XG0SdYxKU0=",
+        "lastModified": 1666424192,
+        "narHash": "sha256-rb/a7Kg9s31jqkvdOQHFrUc5ig5kB+O2ZKB8mjU2kW8=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "be36cb1636416719e26863311b8361d68468c88c",
+        "rev": "4f8287f3d597c73b0d706cfad028c2d51821f64d",
         "type": "github"
       },
       "original": {
@@ -16,26 +16,9 @@
         "type": "github"
       }
     },
-    "nixpkgs-pyqt6": {
-      "locked": {
-        "lastModified": 1665032953,
-        "narHash": "sha256-VNmTxQkIpg4RZdrUdV64DsEi4JYr6VP9+VRRj3D32Vg=",
-        "owner": "LunNova",
-        "repo": "nixpkgs",
-        "rev": "1824a128a150d743f1c6614ae849ad64894057a1",
-        "type": "github"
-      },
-      "original": {
-        "owner": "LunNova",
-        "ref": "lunnova/cura-upgrade",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
     "root": {
       "inputs": {
-        "nixpkgs": "nixpkgs",
-        "nixpkgs-pyqt6": "nixpkgs-pyqt6"
+        "nixpkgs": "nixpkgs"
       }
     }
   },
