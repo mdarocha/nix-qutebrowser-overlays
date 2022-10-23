@@ -12,9 +12,9 @@
         patches = (old.patches or [ ]) ++ [ ./treetabs.patch ];
       });
 
-      qutebrowser-qt-6 = prev.qutebrowser-qt6.overrideAttrs (old: rec {
+      qutebrowser-qt6-with-treetabs = prev.qutebrowser-qt6.overrideAttrs (old: rec {
         name = "${pname}-${old.version}";
-        pname = "qutebrowser-qt-6";
+        pname = "qutebrowser-qt6-with-treetabs";
 
         patches = (old.patches or [ ]) ++ [ ./treetabs.patch ];
       });
@@ -29,6 +29,6 @@
           overlays = [ self.overlays.default ];
         };
       in
-      { inherit (pkgs) qutebrowser-with-treetabs qutebrowser-qt-6; };
+      { inherit (pkgs) qutebrowser-with-treetabs qutebrowser-qt6-with-treetabs; };
   };
 }
