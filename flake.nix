@@ -15,6 +15,8 @@
       qutebrowser-qt-6 = prev.qutebrowser-qt6.overrideAttrs (old: rec {
         name = "${pname}-${old.version}";
         pname = "qutebrowser-qt-6";
+
+        patches = (old.patches or [ ]) ++ [ ./treetabs.patch ];
       });
     };
 
