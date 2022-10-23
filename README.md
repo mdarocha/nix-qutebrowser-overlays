@@ -40,3 +40,4 @@ This makes two new packages available in `nixpkgs`:
 - `qutebrowser-with-treetabs`, which is the current stable version of qutebrowser with tree tabs.
 
 - `qutebrowser-qt6-with-treetabs`, which is a build of qutebrowser from the `qt6-v2` branch, with tree tabs patch applied.
+    - This is not done yet, requires properly rebasing PR 4602
